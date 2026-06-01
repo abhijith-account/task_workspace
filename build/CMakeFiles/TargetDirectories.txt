@@ -1,0 +1,5 @@
+/home/abhi-inc-5842/task_workspace/build/CMakeFiles/calc.dir
+/home/abhi-inc-5842/task_workspace/build/CMakeFiles/run_tests.dir
+/home/abhi-inc-5842/task_workspace/build/CMakeFiles/test.dir
+/home/abhi-inc-5842/task_workspace/build/CMakeFiles/edit_cache.dir
+/home/abhi-inc-5842/task_workspace/build/CMakeFiles/rebuild_cache.dir

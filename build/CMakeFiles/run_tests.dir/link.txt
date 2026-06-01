@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/run_tests.dir/test_main.cpp.o CMakeFiles/run_tests.dir/calculator.cpp.o CMakeFiles/run_tests.dir/shape.cpp.o -o run_tests  /usr/lib/x86_64-linux-gnu/libgtest.a -lpthread 

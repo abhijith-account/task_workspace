@@ -1,0 +1,71 @@
+Start testing: Jun 01 17:12 IST
+----------------------------------------------------------
+1/1 Testing: AllTests
+1/1 Test: AllTests
+Command: "/home/abhi-inc-5842/task_workspace/build/run_tests"
+Directory: /home/abhi-inc-5842/task_workspace/build
+"AllTests" start time: Jun 01 17:12 IST
+Output:
+----------------------------------------------------------
+[==========] Running 16 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 13 tests from CalculatorTest
+[ RUN      ] CalculatorTest.AddTwoPositives
+[       OK ] CalculatorTest.AddTwoPositives (0 ms)
+[ RUN      ] CalculatorTest.AddNegatives
+[       OK ] CalculatorTest.AddNegatives (0 ms)
+[ RUN      ] CalculatorTest.AddMixed
+[       OK ] CalculatorTest.AddMixed (0 ms)
+[ RUN      ] CalculatorTest.AddZero
+[       OK ] CalculatorTest.AddZero (0 ms)
+[ RUN      ] CalculatorTest.positiveresult
+[       OK ] CalculatorTest.positiveresult (0 ms)
+[ RUN      ] CalculatorTest.negativeresult
+[       OK ] CalculatorTest.negativeresult (0 ms)
+[ RUN      ] CalculatorTest.zeroresult
+[       OK ] CalculatorTest.zeroresult (0 ms)
+[ RUN      ] CalculatorTest.DeliberateFailure
+/home/abhi-inc-5842/task_workspace/test_main.cpp:15: Failure
+Expected equality of these values:
+  calculator::add(2, 3)
+    Which is: 5
+  999
+
+[  FAILED  ] CalculatorTest.DeliberateFailure (0 ms)
+[ RUN      ] CalculatorTest.positivepositive
+[       OK ] CalculatorTest.positivepositive (0 ms)
+[ RUN      ] CalculatorTest.positivenegative
+[       OK ] CalculatorTest.positivenegative (0 ms)
+[ RUN      ] CalculatorTest.negativenegative
+[       OK ] CalculatorTest.negativenegative (0 ms)
+[ RUN      ] CalculatorTest.DivideFoatingPoints
+[       OK ] CalculatorTest.DivideFoatingPoints (0 ms)
+[ RUN      ] CalculatorTest.DividebyZero
+[       OK ] CalculatorTest.DividebyZero (0 ms)
+[----------] 13 tests from CalculatorTest (0 ms total)
+
+[----------] 3 tests from ShapeTest
+[ RUN      ] ShapeTest.CircleArea
+[       OK ] ShapeTest.CircleArea (0 ms)
+[ RUN      ] ShapeTest.RectangleArea
+[       OK ] ShapeTest.RectangleArea (0 ms)
+[ RUN      ] ShapeTest.TriangleArea
+[       OK ] ShapeTest.TriangleArea (0 ms)
+[----------] 3 tests from ShapeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 16 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 15 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] CalculatorTest.DeliberateFailure
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"AllTests" end time: Jun 01 17:12 IST
+"AllTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 01 17:12 IST
